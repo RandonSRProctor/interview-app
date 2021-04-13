@@ -29,7 +29,7 @@ export default class ButtonAndValue extends React.Component{
     render() {
         return (
             <div>
-                <h1>Proof that Randy can make an Increment Button</h1>
+                <h1>Randy's React Increment Button</h1>
                 <div>
                     <p>{this.state.count}</p>
                     <button
@@ -52,7 +52,6 @@ export default class ButtonAndValue extends React.Component{
                         onClick={this.resetState}
                         >Reset</button>
                     }
-                    
                 </div>
                 <div>
                     <p>{this.state.thanksMessage}</p>
